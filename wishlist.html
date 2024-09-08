@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- ! Bootsrap Cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- ! External Css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ! Header Starts -->
+    <!-- Header First Part  -->
+    <header class="container-fluid header-container">
+        <div class="py-2">
+            <div class="d-flex justify-content-between">
+                <div class="header-contact">
+                    <a href="#" class="text-black ms-4 me-5">
+                        <i class="fa-solid fa-phone"></i>
+                        +1 999 999 99 99
+                    </a>
+                    <a href="#" class="text-black">
+                        <i class="fa-solid fa-envelope"></i>
+                        info@domain.com
+                    </a>
+                </div>
+                <div class="header-socialmedia">
+                    <i class="fa-brands fa-facebook-f me-4"></i>
+                    <i class="fa-brands fa-twitter me-4"></i>
+                    <i class="fa-brands fa-linkedin-in me-4"></i>
+                    <i class="fa-brands fa-glide-g me-4"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Header First Part Ends -->
+
+    <!-- Header Second Part -->
+
+    <header class="container-fluid">
+        <div class="px-5 py-3 justify-content-between border-bottom d-flex">
+            <div class="logo-container">
+                <a href="./index.html" class="me-3 text-decoration-none">
+                    <img src="./img/logo.PNG" alt="resim">
+                </a>
+                <select class="me-3">
+                    <option>USA</option>
+                </select>
+                <select>
+                    <option>DOLLAR</option>
+                </select>
+            </div>
+            <div class="header-links py-2">
+                <a href="" class="me-3 text-black ">
+                    <i class="fa-solid fa-user"></i>
+                    User
+                </a>
+                <a href="./wishlist.html" class="me-3 text-black">
+                    <i class="fa-solid fa-star text-black"></i>
+                    Whistlist
+                </a>
+                <a href="" class="me-3 text-black">
+                    <i class="fa-solid fa-bullseye"></i>
+                    Checkout
+                </a>
+                <a href="./cart.html" class="me-3 text-black">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Cart
+                </a>
+                <a href="./login.html" class="me-3 text-black">
+                    <i class="fa-solid fa-lock"></i>
+                    Login
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Header Last Part -->
+    <header class="container-fluid d-flex justify-content-between">
+        <div class="dropdown-container py-3 px-5 d-flex">
+            <a href="index.html" class="text-warning text-decoration-none me-3">Home</a>
+            <div class="btn-group me-3">
+                <button type="button" class="button-container dropdown-toggle text-muted" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Shop
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+            </div>
+            <div class="btn-group me-3">
+                <button type="button" class="button-container dropdown-toggle text-muted" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Blog
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+            </div>
+            <div class="btn-group me-3">
+                <button type="button" class="button-container text-muted">
+                    404
+                </button>
+            </div>
+            <div class="btn-group">
+                <a href="./contact.html">
+                    <button type="button" class="button-container text-muted">
+                        Contact
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-end mt-3">
+                <div class="col-12 col-md-8 col-lg-6 d-flex">
+                    <input type="text" placeholder="Search Items" class="form-control me-2 shadow-none" id="searchInput">
+                    <button class="button-color btn btn-outline-none" type="button" id="button-addon2">
+                        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- ! Header Ends -->
+
+    <!-- ! Content Starts -->
+
+    <div class="container">
+        <div class="mt-4">
+            <img class="w-100" src="img/wishlist-add.PNG" alt="">
+        </div>
+    </div>
+
+    <div class="row px-5 pt-5 m-0">
+        <div class="d-none d-md-block col-md-4 col-lg-3">
+            <h4 class="text-warning text-center mb-4">CATEGORY</h4>
+            <div class="border border-1 ms-4">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item border-0">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed shadow-none m-0 py-2" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                SPORTSWEAR
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed shadow-none m-0 py-2" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                MENS
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed shadow-none m-0 py-2" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                WOMENS
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"></div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="m-0 px-6 fs-6">
+                    <li class="py-2">
+                        <a class="text-black" href="#">KIDS</a>
+                    </li>
+                    <li class="py-2">
+                        <a class="text-black" href="#">FASHION</a>
+                    </li>
+                    <li class="py-2">
+                        <a class="text-black" href="#">HOUSEHOLDS</a>
+                    </li>
+                    <li class="py-2">
+                        <a class="text-black" href="#">INTERIORS</a>
+                    </li>
+                    <li class="py-2">
+                        <a class="text-black" href="#">CLOTHING</a>
+                    </li>
+                    <li class="py-2">
+                        <a class="text-black" href="#">BAGS</a>
+                    </li>
+                    <li class="py-2">
+                        <a class="text-black" href="#">SHOES</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="wishlist-add2 text-center mt-4">
+                <img class="w-90 ps-3" src="img/wishlist-add2.PNG" alt="">
+            </div>
+        </div>
+
+        <div class="col-12 col-md-8 col-lg-9">
+            <div class="row">
+                <h4 class="text-warning text-center mb-4">FEATURES ITEMS</h4>
+                <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                    <div class="card text-center">
+                        <img width="100px" height="250px" src="img/brown-jacket.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="text-warning fw-bold fs-4">56 $</h5>
+                            <p id="cardText" class="">Brown Jacket</p>
+                            <a href="#" class="btn bg-grey">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add To Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                    <div class="card text-center">
+                        <img width="100px" height="250px" src="img/pink-trousers.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="text-warning fw-bold fs-4">65 $</h5>
+                            <p class="">Pink Trousers</p>
+                            <a href="#" class="btn bg-grey">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add To Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                    <div class="card text-center">
+                        <img width="100px" height="250px" src="img/short-skirt.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="text-warning fw-bold fs-4">71 $</h5>
+                            <p class="">Short Skirt</p>
+                            <a href="#" class="btn bg-grey">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add To Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                    <div class="card text-center">
+                        <img width="100px" height="250px" src="img/t-shirt1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="text-warning fw-bold fs-4">71 $</h5>
+                            <p class="">Grey Unisex T-shirt</p>
+                            <a href="#" class="btn bg-grey">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add To Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                    <div class="card text-center">
+                        <img width="100px" height="250px" src="img/t-shirt2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="text-warning fw-bold fs-4">71 $</h5>
+                            <p class="">White Unisex T-shirt</p>
+                            <a href="#" class="btn bg-grey">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add To Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                    <div class="card text-center">
+                        <img width="100px" height="250px" src="img/t-shirt3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="text-warning fw-bold fs-4">71 $</h5>
+                            <p class="">Black Unisex T-shirt</p>
+                            <a href="#" class="btn bg-grey">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add To Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                    <div class="card text-center">
+                        <img width="100px" height="250px" src="img/t-shirt4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="text-warning fw-bold fs-4">71 $</h5>
+                            <p class="">White Men T-shirt</p>
+                            <a href="#" class="btn bg-grey">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add To Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                    <div class="card text-center">
+                        <img width="100px" height="250px" src="img/trousers1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="text-warning fw-bold fs-4">71 $</h5>
+                            <p class="">Dark Blue Men Trousers</p>
+                            <a href="#" class="btn bg-grey">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add To Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                    <div class="card text-center">
+                        <img width="100px" height="250px" src="img/trousers2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="text-warning fw-bold fs-4">71 $</h5>
+                            <p class="">Light Blue Men Trousers</p>
+                            <a href="#" class="btn bg-grey">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add To Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                    <div class="card text-center">
+                        <img width="100px" height="250px" src="img/womens1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="text-warning fw-bold fs-4">71 $</h5>
+                            <p class="">White Women Bluz</p>
+                            <a href="#" class="btn bg-grey">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add To Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                    <div class="card text-center">
+                        <img width="100px" height="250px" src="img/womens2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="text-warning fw-bold fs-4">71 $</h5>
+                            <p class="">Women Sweatshirt</p>
+                            <a href="#" class="btn bg-grey">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add To Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                    <div class="card text-center">
+                        <img width="100px" height="250px" src="img/womens3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="text-warning fw-bold fs-4">71 $</h5>
+                            <p class="">White Women T-shirt</p>
+                            <a href="#" class="btn bg-grey">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add To Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                    <div class="card text-center">
+                        <img width="100px" height="250px" src="img/womens4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="text-warning fw-bold fs-4">71 $</h5>
+                            <p class="">Brown Women Sweatshirt</p>
+                            <a href="#" class="btn bg-grey">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add To Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                    <div class="card text-center">
+                        <img width="100px" height="250px" src="img/womens5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="text-warning fw-bold fs-4">71 $</h5>
+                            <p class="">White Women Shirt</p>
+                            <a href="#" class="btn bg-grey">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add To Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                    <div class="card text-center">
+                        <img width="100px" height="250px" src="img/womens6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="text-warning fw-bold fs-4">71 $</h5>
+                            <p class="">Women Skirt</p>
+                            <a href="#" class="btn bg-grey">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add To Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                    <div class="card text-center">
+                        <img width="100px" height="250px" src="img/womens7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="text-warning fw-bold fs-4">71 $</h5>
+                            <p class="">Red Women Skirt</p>
+                            <a href="#" class="btn bg-grey">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add To Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+ <!-- ! Fontawsome Js -->
+ <script src="https://kit.fontawesome.com/6631b5f999.js" crossorigin="anonymous"></script>
+ <!-- ! Bootsrap Js -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+     crossorigin="anonymous"></script>
+ <!-- ! External Js -->
+ <script src="script.js"></script>
+    
+
+</body>
+
+</html>

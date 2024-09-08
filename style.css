@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ! Index CSS */
+
+.header-container {
+    background-color: rgba(128, 128, 128, 0.24);
+}
+
+.button-container {
+    border: none;
+    background-color: white;
+
+}
+
+.input-container {
+    margin-top: 1rem;
+}
+
+.searchInput {
+    width: 350px;
+    height: 40px;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.button-color {
+    background-color: orange;
+
+}
+
+.header-contact a {
+    text-decoration: none;
+}
+
+.header-links a {
+    text-decoration: none;
+}
+
+.dropdown-mid {
+    padding: 0;
+    margin-left: 1.2rem;
+
+}
+
+.dropdown-mid li {
+    list-style-type: none;
+}
+
+.dropdown-mid li a {
+    text-decoration: none;
+}
+
+.category-container {
+    font-size: 23px;
+    color: orange;
+    text-align: center;
+    margin-left: 10rem;
+}
+
+.feature-container {
+    font-size: 23px;
+    color: orange;
+    text-align: center;
+    margin-left: 48rem;
+}
+
+.content {
+    margin-left: 2rem;
+    width: 365px;
+    height: 400px;
+}
+
+.dropdown button {
+    background-color: white;
+}
+
+.content ul li {
+    list-style: none;
+
+}
+
+.content ul li a {
+    text-decoration: none;
+}
+
+.card-container {
+    height: 400px;
+}
+
+.card-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-container1{
+    width: 420px;
+}
+
+.card-container1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.left-container {
+    margin-top: 10rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgb(143, 131, 131);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.bg-color .row {
+    margin-left: 20rem;
+}
+
+.bg-color {
+    background-color: rgba(219, 204, 204, 0.336);
+}
+
+/* ! Contact CSS */
+
+.contact-container {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.subject-container {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.message-container {
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.round {
+
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-container {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+/* ! Cart Css */
+
+.cart-container{
+    width: 69.4%;
+    margin-left: 15.3%;
+}
+
+.sub-total{
+    margin-top: 10rem;
+}
+
+.whislistimg{
+    position: absolute;
+    width: 420px;
+    left: 0.5%;
+}
+
+@media (max-width: 768px){
+    .footermf{
+        justify-content: center;
+    }
+}
